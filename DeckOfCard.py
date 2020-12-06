@@ -28,3 +28,8 @@ class Deck:
         random.shuffle(self.deck)
 	#d1.deck
         #d1.shuffle()
+    def deal_card(self):
+        return self.deck.pop()
+
+    def __len__(self):
+        return len(self.deck)
