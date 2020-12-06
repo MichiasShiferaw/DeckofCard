@@ -24,4 +24,8 @@ class Deck:
         for rank in Deck.ranks:
             for suit in Deck.suits:
                 self.deck.append( Card(rank,suit) )
+		def shuffle(self):
+       random.shuffle(self.deck)
+       #d1.deck
+       #d1.shuffle()
         
